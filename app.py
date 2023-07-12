@@ -111,4 +111,9 @@ if uploaded_file is not None:
 
     emoji_df=helper.emoji(selected_user,df)
     st.dataframe(emoji_df)
+
+
+    emoji_df=helper.emoji(selected_user,df)
+    st.dataframe(emoji_df)
+    
     
